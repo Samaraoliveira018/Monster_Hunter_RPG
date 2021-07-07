@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from '../src/pages/Home';
+import Game from './pages/Game';
+import Ranking from './pages/Ranking/ranking';
 
 function App() {
   return (
@@ -10,11 +12,11 @@ function App() {
         <Route exact path="/">
              <Home/>
         </Route>
-        <Route  exact path="/ranking">
-            <h1>Ranking</h1>
+        <Route  exact path="/game">
+            <Game/>
         </Route>
-        <Route exact path="/iniciar-jogo">
-            <h1>Iniciar Jogo</h1>
+        <Route exact path="/ranking">
+            <Ranking/>
         </Route>
       </Switch>
       </div>
