@@ -1,0 +1,45 @@
+.container {
+    background: red;
+    width: 35rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    color: rgb(88, 77, 77);
+}
+
+.jogadores {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 2rem;
+}
+
+.jogador {
+    display: flex;
+    flex-direction: column;
+}
+
+.monstro {
+    display: flex;
+    flex-direction: column;
+}
+
+.comandos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botoes {
+    background: chartreuse;
+    display: flex;
+    justify-content: space-around;
+    width: 24rem;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
