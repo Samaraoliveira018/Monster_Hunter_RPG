@@ -17,7 +17,7 @@ const Home: React.FC = () => {
             <label>Nome do Jogador</label>
             <input type='text'/>
             </div>
-            <Button type='submit'>iniciar jogo</Button>
+            <Button type='submit'> iniciar jogo</Button>
           </form>
         </div>
       </div>

@@ -1,10 +1,7 @@
 .container {
-    background: red;
     width: 35rem;
-    height: 20rem;
     margin: 0 auto;
     margin-top: 4rem;
-    color: rgb(88, 77, 77);
 }
 
 .jogadores {
@@ -18,6 +15,15 @@
 .jogador {
     display: flex;
     flex-direction: column;
+    width: 8rem;
+}
+
+.jogador span+span {
+    width: 100%;
+    background: blueviolet;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #222;
 }
 
 .monstro {
@@ -32,14 +38,81 @@
 }
 
 .botoes {
-    background: chartreuse;
     display: flex;
     justify-content: space-around;
-    width: 24rem;
+    width: 36rem;
+}
+
+#ataque {
+    color: white;
+    background-color: #002AB4;
+    width: 200px;
+}
+
+#ataque-especial {
+    color: white;
+    background-color: #A71D1D;
+    width: 200px;
+}
+
+#curar {
+    color: white;
+    background-color: #00B400;
+    width: 200px;
+}
+
+#desistir {
+    color: white;
+    background-color: #A600B4;
+    width: 200px;
 }
 
 .log {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.log span {
+    color: black;
+}
+
+.log ul {
+    width: 100%;
+}
+
+.logAt {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 100%;
+    background: #6275B5;
+    margin-top: 0.5rem;
+}
+
+.logAtEsp {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 100%;
+    background: #B4B469;
+    margin-top: 0.5rem;
+}
+
+.logCura {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 100%;
+    background: #62B56C;
+    margin-top: 0.5rem;
+}
+
+.logMons {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 100%;
+    background: #b262b5;
+    margin-top: 0.5rem;
 }
