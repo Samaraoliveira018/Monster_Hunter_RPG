@@ -28,7 +28,7 @@
     color: black;
 }
 
-.formu button {
+.formu a {
     color: whitesmoke;
     width: 100px;
     height: 30px;
@@ -39,8 +39,9 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 28px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .formu {

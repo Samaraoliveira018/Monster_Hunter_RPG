@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/navbar';
 import { Button } from 'react-bootstrap';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
 
@@ -17,7 +18,8 @@ const Home: React.FC = () => {
             <label>Nome do Jogador</label>
             <input type='text'/>
             </div>
-            <Button type='submit'> iniciar jogo</Button>
+            <a href="/game">Iniciar Jogo</a>
+            
           </form>
         </div>
       </div>
