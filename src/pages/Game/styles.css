@@ -2,14 +2,15 @@
     width: 35rem;
     margin: 0 auto;
     margin-top: 4rem;
+    color: black;
 }
 
 .jogadores {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: blueviolet;
     margin-top: 2rem;
+    color: black;
 }
 
 .jogador {
@@ -121,5 +122,15 @@
     color: black;
     width: 100%;
     background: #b262b5;
+    margin-top: 0.5rem;
+}
+
+.monstro span {
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.jogador span {
+    color: black;
     margin-top: 0.5rem;
 }

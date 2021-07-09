@@ -61,12 +61,12 @@ const Game: React.FC = () => {
       <div className="container">
         <div className="jogadores">
           <div className="jogador">
-            <span>jogador</span>
+            <span>Jogador</span>
             <span style={{background: `linear-gradient(90deg, rgba(0,180,0,1) ${vidaJogador}%, rgba(255,255,255,1),0%, rgba(255,255,255,1) 100%)`}}>{`${vidaJogador}%`}</span>
             {/* <span >{`${vidaJogador}%`}</span> */}
           </div>
           <div className="monstro">
-            <span>monstro</span>
+            <span>Monstro</span>
             <span style={{background: `linear-gradient(90deg, rgba(0,180,0,1) ${vidaMonstro}%, rgba(255,255,255,1),0%, rgba(255,255,255,1) 100%)`}}>{`${vidaMonstro}%`}</span>
           </div>
         </div>
