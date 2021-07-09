@@ -26,6 +26,13 @@
     text-shadow: 2px 2px #222;
 }
 
+.monstro span+span {
+    width: 200px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #222;
+}
+
 .monstro {
     display: flex;
     flex-direction: column;
